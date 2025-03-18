@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (do not commit sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test coverage output
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Supabase local development files
+# Ignore local database files and Supabase environment settings
+supabase/db/
+supabase/.env
+
+# Optional: Ignore any cache directories
+.cache/
