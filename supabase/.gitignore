@@ -1,3 +1,53 @@
-# Supabase
-.branches
-.temp
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Next.js cache and build artifacts
+.cache/
+.build/
+
+# Environment variable files (keep your secrets out of version control)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel deployment settings
+.vercel/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Supabase local development files and CLI artifacts
+.supabase/
+supabase/db/
+supabase/migrations/
+
+# Generated types (if you generate types from Supabase)
+supabase/types.ts
+
+# Docker files (if applicable)
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Coverage directory (if using testing tools)
+coverage/
+
+# Other generated or temporary files
+*.pid

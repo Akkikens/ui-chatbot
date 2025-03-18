@@ -8,10 +8,11 @@ create extension vector with schema extensions;
 CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
-    NEW.updated_at = now(); 
-    RETURN NEW; 
+    SET search_path = public;
+    NEW.updated_at = now();
+    RETURN NEW;
 END;
-$$ language 'plpgsql';
+$$ LANGUAGE plpgsql;
 
 -- Function to delete a message and all following messages
 CREATE OR REPLACE FUNCTION delete_message_including_and_after(
