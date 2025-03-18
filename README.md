@@ -287,4 +287,4 @@ We are working on a guide for contributing.
 
 ## Contact
 
-Message Mckay on [Twitter/X](https://twitter.com/mckaywrigley)
+Message Akshay on [GitHub](https://github.com/Akkikens)
