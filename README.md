@@ -1,4 +1,4 @@
-# **Chatbot UI – AI-Powered Conversational Interface**  
+# **AI-Powered Conversational Interface Chatbot**  
 
 An open-source AI chat application designed for seamless user interactions and efficient AI-driven conversations.  
 
